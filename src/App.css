@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  background-image: url('./Design 2.jpeg'); 
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-container {
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.my-button {
+  background-color: #403b3b;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+
+button i {
+  margin-right: 5px;
+}
+
+button + button {
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c62929;
+  padding: 10px 0;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+li button {
+  background-color: #ae3030;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.edi{
+  background-color: #7ace63;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.update {
+  background-color: #d7dce2;
+  color: #0b0b0b;
+  border: none;
+  padding: 10px 20px; 
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px; 
+}
